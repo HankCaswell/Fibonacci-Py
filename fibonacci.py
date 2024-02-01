@@ -1,4 +1,13 @@
 def fibonacci(n):
-  pass
+  if n <= 1:
+    return n
+  elif n == 2: 
+    return 1
+  else:
+    return fibonacci(n-1) + fibonacci(n-2)
+
+
+
+
 
 
